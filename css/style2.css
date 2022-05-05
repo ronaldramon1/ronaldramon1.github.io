@@ -1,0 +1,83 @@
+.slider{
+    max-width: 1150px;
+    display:flex;
+}
+.slider .card2{
+    background-color: #c3c3c3;
+    flex: 1;
+    margin: 0 10px;
+    border-radius: 10px;
+    height: 20em;
+    padding-top: 1em;
+    z-index: 20;
+}
+.slider .card .img{
+    height: 200px;
+    width: 100%;
+}
+
+.slider .card .img img{
+    height: 100%;
+    width: 100px;
+    object-fit: cover;
+}
+
+.slider .card2 .content{
+
+    padding: 10px 20px;
+    background-image: url("assets/img/Propiedades/Blumarina2.jpg");
+    background-size: cover;
+    z-index: 22;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.card2 .content .title{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    line-height: 22px;
+    text-align: left;
+}
+.card2 .content .sub-title{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    font-weight: 600;
+
+}
+.card2 .content p{
+    text-align: justify;
+    margin: 10px 0;
+    color: white;
+    line-height: 16px;
+}
+.card .content .btn{
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+}
+.butonn{
+background-color: #e74c3c;
+color: #fff;
+border: none;
+outline: none;
+font-size: 17px;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.2s ease-in;
+transition: 0.2s ease-out;
+}
+.butonn:hover{
+    transform: scale(0.9);
+}
+.contenedor3{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+}
