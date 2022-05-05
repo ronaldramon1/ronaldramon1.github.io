@@ -172,7 +172,7 @@ function redcontactos(){
 
  <div class="position:absolute" style="margin-top:0;z-index:-6;">
 	<video style="z-index:-5; width:100%; height:30em;object-fit:cover; max-height:80em" class="video2" loop autoplay muted>
-	<source src="assets/videos/cosmos.mp4" type="video/mp4">
+	<source src="assets/video/cosmos.mp4" type="video/mp4">
 	</video>
 </div>
 <div class=" header1" style="background-color:#edf0f101;position:absolute; margin-top:-115%; z-index:10">
